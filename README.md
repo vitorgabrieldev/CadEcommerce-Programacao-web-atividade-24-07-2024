@@ -13,7 +13,7 @@ Este projeto é um sistema de cadastro de produtos, desenvolvido para gerenciar 
 | Linguagem de Formatação | Html 5 |
 | Linguagem de Estilização | Css3 |
 | Biblioteca | Jquery 2.1.4 |
-| Servidor | Apache (XAMPP, Wampp, Eetc...) |
+| Servidor | Apache (XAMPP, Wampp, Etc...) |
 
 #
 
