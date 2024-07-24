@@ -120,3 +120,24 @@ Envie suas alterações para o repositório remoto:
 **Abra um Pull Request**
 
 Abra um pull request no repositório original para revisar e integrar suas mudanças.
+
+## Visualização do Projeto
+
+Você poderia conferir esse projeto em: [Servidor De Estudo](http://trabalhosprogramacaovitor.free.nf/CadEcommerce/index.php)
+
+## Capturas de tela do projeto
+
+**Tela Inicial da listagem dos produtos**
+![Listagem dos produtos](document/captura-1.png)
+
+**Menu de Navegação**
+![Menu de Navegação](document/captura-2.png)
+
+**Menu de Navegação**
+![Menu de Navegação](document/captura-2.png)
+
+**Cadastro de Produtos**
+![Cadastro de Produtos](document/captura-3.png)
+
+**Tela de Carrinho**
+![Tela de Carrinho](document/captura-4.png)
