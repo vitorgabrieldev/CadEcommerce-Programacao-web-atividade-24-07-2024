@@ -75,57 +75,47 @@ Configure o servidor MySQL e crie um banco de dados para o projeto com o nome "c
 ```
 
 **Importar Estrutura do Banco de Dados**
-Dump do Banco Disponivel em:
 
-## USO:
+Dump do Banco Disponivel em: [Compra-Dump.sql](https://github.com/vitorgabrieldev/CadEcommerce-Programacao-web-atividade-24-07-2024/blob/master/Dump-Projeto-Compra.sql)
 
-Acessar o Sistema
 
-Abra o navegador e acesse a URL do projeto, como http://localhost/nomedoprojeto.
+**Funcionalidades:**
 
-Cadastro de Produtos
+1. Cadastro e gerenciamento de categorias e marcas.
+2. Cadastro de produtos com informações detalhadas.
+3. Visualização de produtos com filtros por categoria e marca.
 
-Navegue até a seção de cadastro de produtos e preencha os detalhes do produto, incluindo nome, descrição, estoque, preço, categoria e marca.
 
-Visualização e Gerenciamento
+**Contribuição para fins de estudo:**
 
-Utilize as interfaces de usuário para visualizar, editar e remover produtos, categorias e marcas.
-
-Funcionalidades
-Cadastro e gerenciamento de categorias e marcas.
-Cadastro de produtos com informações detalhadas.
-Visualização de produtos com filtros por categoria e marca.
-Atualização e exclusão de produtos.
-Contribuição
-Fork o Repositório
+**Fork o Repositório**
 
 Faça um fork do repositório para seu próprio perfil.
 
-Crie uma Branch
-
+**Crie uma Branch**
 Crie uma nova branch para suas modificações:
 
-bash
-Copiar código
-git checkout -b minha-nova-feature
-Faça Commit das Suas Mudanças
+``` bash
+  git checkout -b "minha-nova-feature"
+```
+
+**Faça Commit das Suas Mudanças**
 
 Adicione e commit suas mudanças:
 
-bash
-Copiar código
-git add .
-git commit -m "Descrição das minhas mudanças"
-Push para o Repositório Remoto
+``` bash
+ git add .
+  git commit -m "Descrição das minhas mudanças"
+```
+
+**Push para o Repositório Remoto**
 
 Envie suas alterações para o repositório remoto:
 
-bash
-Copiar código
-git push origin minha-nova-feature
-Abra um Pull Request
+``` bash
+  git push origin minha-nova-feature
+```
+
+**Abra um Pull Request**
 
 Abra um pull request no repositório original para revisar e integrar suas mudanças.
-
-Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
