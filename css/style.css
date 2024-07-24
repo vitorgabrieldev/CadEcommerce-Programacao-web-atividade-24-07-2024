@@ -13,3 +13,16 @@ section#produtos ul li h2 { float: left; margin-bottom: 15px; color: #2a2a2a; }
 section#produtos ul li p { float: left; color: #7e7e7e; clear: left; line-height: 30px; }
 section#produtos ul li a {  text-decoration: none; margin-top: 20px; height: 40px; line-height: 36px; clear: left; padding: 0 20px; color: #ffffff; background: #2962ff; float: left; }
 section#produtos a {  text-decoration: none; margin-top: 20px; height: 40px; line-height: 36px; clear: left; padding: 0 20px; color: #ffffff; background: #2962ff; float: left; }
+
+#produtos {display: flex;justify-content: center;}
+#produtos form {min-width: 500px;}
+#produtos form input{width: 100%; padding: 10px 20px;font-size: 18px; font-weight: 500; outline: none; margin-bottom: 20px;}
+#produtos form label{font-size: 16px; font-weight: 500; letter-spacing: 1px;}
+#produtos form select{padding: 10px 20px; width: 200px;}
+#produtos form select option{padding: 10px 20px; width: 200px; font-size: 16px; font-weight: 500;}
+#produtos form .large{width: 90px; display: flex;}
+#produtos form .flex {display: flex; align-items: center;}
+
+#produtos form .btn {
+    cursor: pointer;   
+}
