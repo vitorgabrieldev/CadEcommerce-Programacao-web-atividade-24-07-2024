@@ -93,6 +93,7 @@ Dump do Banco Disponivel em: [Compra-Dump.sql](https://github.com/vitorgabrielde
 Faça um fork do repositório para seu próprio perfil.
 
 **Crie uma Branch**
+
 Crie uma nova branch para suas modificações:
 
 ``` bash
@@ -104,7 +105,7 @@ Crie uma nova branch para suas modificações:
 Adicione e commit suas mudanças:
 
 ``` bash
- git add .
+  git add .
   git commit -m "Descrição das minhas mudanças"
 ```
 
