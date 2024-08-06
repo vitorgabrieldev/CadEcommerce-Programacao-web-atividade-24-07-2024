@@ -141,3 +141,33 @@ Você poderia conferir esse projeto em: [Servidor De Estudo](http://trabalhospro
 
 **Tela de Carrinho**
 ![Tela de Carrinho](document/captura-4.png)
+
+## **Descrição dos Metódos Utilizados:**
+
+| Método                    | Descrição                                                                                       |
+| ------------------------- | -------------------------------------------------------------------------------------------------|
+| **include_once()**        | Inclui e avalia o arquivo especificado durante a execução do script, garantindo que ele só seja incluído uma vez. |
+| **mysqli_query()**        | Executa uma consulta no banco de dados MySQL.                                                    |
+| **while**                 | Estrutura de repetição que executa um bloco de código enquanto a condição for verdadeira.         |
+| **mysqli_fetch_assoc()**  | Busca uma linha de resultado como uma matriz associativa.                                        |
+| **echo**                  | Exibe uma ou mais strings.                                                                       |
+| **mysqli_affected_rows()**| Retorna o número de linhas afetadas pela última consulta.                                        |
+| **mysqli_close()**        | Fecha a conexão com o banco de dados MySQL.                                                      |
+| **mysqli_error()**        | Retorna a mensagem de erro da última operação MySQL.                                             |
+| **__construct()**         | Método construtor de uma classe, executado automaticamente na criação de um objeto.              |
+| **session_start()**       | Inicia uma nova sessão ou resume uma sessão existente.                                           |
+| **$mysqli->query**        | Método orientado a objetos para executar uma consulta no banco de dados MySQL.                   |
+| **mysqli_fetch_object()** | Busca uma linha de resultado como um objeto.                                                     |
+| **array()**               | Cria um array.                                                                                   |
+| **$_SESSION['']**         | Superglobal que armazena e acessa variáveis de sessão.                                           |
+| **exit;**                 | Termina a execução do script.                                                                    |
+| **header('Location:')**   | Envia um cabeçalho HTTP de redirecionamento para o navegador.                                    |
+| **max()**                 | Retorna o valor máximo de um array ou de uma lista de argumentos.                                |
+| **array_keys()**          | Retorna todas as chaves de um array.                                                             |
+| **str_replace()**         | Substitui todas as ocorrências de uma string por outra.                                          |
+| **unset()**               | Destrói a variável especificada, liberando qualquer recurso associado.                           |
+| **new Carrinho()**        | Cria uma nova instância da classe `Carrinho`.                                                    |
+| **mysqli_connect()**      | Abre uma nova conexão com um servidor MySQL.                                                     |
+| **$mysqli->connect_error**| Propriedade que contém a mensagem de erro da última tentativa de conexão.                        |
+| **$mysqli->set_charset('utf8')** | Define o conjunto de caracteres da conexão MySQL para UTF-8.                               |
+| **die()**                 | Termina a execução do script e opcionalmente imprime uma mensagem.                               |
