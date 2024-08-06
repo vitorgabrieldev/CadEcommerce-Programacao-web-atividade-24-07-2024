@@ -1,28 +1,141 @@
-* { margin: 0; padding: 0; font-family: Tahoma; }
-
-.center { width: 1000px; margin: 0 auto; }
-
-header { width: 100%; height: 80px; background: #2962ff; margin-bottom: 40px; }
-header h1 { font-size: 22px; float: left; color: #fff; line-height: 80px; }
-header a { float: right; text-decoration: none; height: 40px; color: #2962ff; line-height: 36px; margin-top: 20px; padding: 0 20px; background: #ffffff; }
-header a:hover { opacity: 0.8; }
-
-section#produtos ul { list-style: none; float: left; width: inherit; }
-section#produtos ul li { float: left; width: 430px; padding: 20px 20px; background: #ffffff; margin: 20px 20px 0 0; border: 1px solid #c2c2c2; border-radius: 10px; }
-section#produtos ul li h2 { float: left; margin-bottom: 15px; color: #2a2a2a; }
-section#produtos ul li p { float: left; color: #7e7e7e; clear: left; line-height: 30px; }
-section#produtos ul li a {  text-decoration: none; margin-top: 20px; height: 40px; line-height: 36px; clear: left; padding: 0 20px; color: #ffffff; background: #2962ff; float: left; }
-section#produtos a {  text-decoration: none; margin-top: 20px; height: 40px; line-height: 36px; clear: left; padding: 0 20px; color: #ffffff; background: #2962ff; float: left; }
-
-#produtos {display: flex;justify-content: center;}
-#produtos form {min-width: 500px;}
-#produtos form input{width: 100%; padding: 10px 20px;font-size: 18px; font-weight: 500; outline: none; margin-bottom: 20px;}
-#produtos form label{font-size: 16px; font-weight: 500; letter-spacing: 1px;}
-#produtos form select{padding: 10px 20px; width: 200px;}
-#produtos form select option{padding: 10px 20px; width: 200px; font-size: 16px; font-weight: 500;}
-#produtos form .large{width: 90px; display: flex;}
-#produtos form .flex {display: flex; align-items: center;}
-
-#produtos form .btn {
-    cursor: pointer;   
-}
+/* Estilos gerais para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+  }
+  
+  /* Centraliza o conteúdo com uma largura fixa */
+  .center {
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    width: 100%;
+    height: 80px;
+    background: #2962ff; /* Cor de fundo azul */
+    margin-bottom: 40px; /* Espaço abaixo do cabeçalho */
+  }
+  
+  header h1 {
+    font-size: 22px; /* Tamanho da fonte do título */
+    float: left; /* Alinha o título à esquerda */
+    color: #fff; /* Cor do texto branca */
+    line-height: 80px; /* Altura da linha para centralizar verticalmente */
+  }
+  
+  header a {
+    float: right; /* Alinha o link à direita */
+    text-decoration: none; /* Remove o sublinhado do link */
+    height: 40px; /* Altura do link */
+    color: #2962ff; /* Cor do texto do link */
+    line-height: 36px; /* Altura da linha do link */
+    margin-top: 20px; /* Espaço acima do link */
+    padding: 0 20px; /* Espaço interno (padding) no link */
+    background: #ffffff; /* Cor de fundo branca */
+  }
+  
+  header a:hover {
+    opacity: 0.8; /* Efeito de opacidade ao passar o mouse */
+  }
+  
+  /* Estilos para a seção de produtos */
+  section#produtos {
+    display: flex; /* Usado para alinhamento flexível dos itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+  }
+  
+  section#produtos ul {
+    list-style: none; /* Remove os marcadores da lista */
+    float: left; /* Alinha a lista à esquerda */
+    width: inherit; /* Largura herda do pai */
+  }
+  
+  section#produtos ul li {
+    float: left; /* Alinha os itens da lista à esquerda */
+    width: 430px; /* Largura dos itens */
+    padding: 20px; /* Espaço interno dos itens */
+    background: #ffffff; /* Cor de fundo branca */
+    margin: 20px 20px 0 0; /* Espaço ao redor dos itens */
+    border: 1px solid #c2c2c2; /* Borda cinza clara */
+    border-radius: 10px; /* Cantos arredondados */
+  }
+  
+  section#produtos ul li h2 {
+    float: left; /* Alinha o título à esquerda */
+    margin-bottom: 15px; /* Espaço abaixo do título */
+    color: #2a2a2a; /* Cor do texto do título */
+  }
+  
+  section#produtos ul li p {
+    float: left; /* Alinha o parágrafo à esquerda */
+    color: #7e7e7e; /* Cor do texto dos parágrafos */
+    clear: left; /* Limpa a flutuação à esquerda */
+    line-height: 30px; /* Altura da linha para espaçamento */
+  }
+  
+  section#produtos ul li a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    margin-top: 20px; /* Espaço acima do link */
+    height: 40px; /* Altura do link */
+    line-height: 36px; /* Altura da linha do link */
+    clear: left; /* Limpa a flutuação à esquerda */
+    padding: 0 20px; /* Espaço interno (padding) no link */
+    color: #ffffff; /* Cor do texto do link */
+    background: #2962ff; /* Cor de fundo azul */
+    float: left; /* Alinha o link à esquerda */
+  }
+  
+  /* Estilos para o formulário na seção de produtos */
+  #produtos {
+    display: flex; /* Alinha o formulário usando flexbox */
+    justify-content: center; /* Centraliza o formulário horizontalmente */
+  }
+  
+  #produtos form {
+    min-width: 500px; /* Largura mínima do formulário */
+  }
+  
+  #produtos form input {
+    width: 100%; /* Largura total dos inputs */
+    padding: 10px 20px; /* Espaço interno dos inputs */
+    font-size: 18px; /* Tamanho da fonte dos inputs */
+    font-weight: 500; /* Peso da fonte dos inputs */
+    outline: none; /* Remove o contorno dos inputs ao focar */
+    margin-bottom: 20px; /* Espaço abaixo dos inputs */
+  }
+  
+  #produtos form label {
+    font-size: 16px; /* Tamanho da fonte dos rótulos */
+    font-weight: 500; /* Peso da fonte dos rótulos */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+  }
+  
+  #produtos form select {
+    padding: 10px 20px; /* Espaço interno dos selects */
+    width: 200px; /* Largura dos selects */
+  }
+  
+  #produtos form select option {
+    padding: 10px 20px; /* Espaço interno das opções do select */
+    width: 200px; /* Largura das opções do select */
+    font-size: 16px; /* Tamanho da fonte das opções */
+    font-weight: 500; /* Peso da fonte das opções */
+  }
+  
+  #produtos form .large {
+    width: 90px; /* Largura para elementos com a classe 'large' */
+    display: flex; /* Alinha os itens usando flexbox */
+  }
+  
+  #produtos form .flex {
+    display: flex; /* Alinha os itens usando flexbox */
+    align-items: center; /* Alinha os itens verticalmente */
+  }
+  
+  #produtos form .btn {
+    cursor: pointer; /* Altera o cursor para indicar que o elemento é clicável */
+  }
+  

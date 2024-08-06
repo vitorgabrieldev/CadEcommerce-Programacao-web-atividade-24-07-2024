@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">    
-	<title>Cadastrando Marca</title>
+    <!-- Define o conjunto de caracteres do documento como UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Título da página exibido na aba do navegador -->
+    <title>Cadastrando Marca</title>
 </head>
 <body>
-
-
 </body>
 </html>
