@@ -142,6 +142,17 @@ Você poderia conferir esse projeto em: [Servidor De Estudo](http://trabalhospro
 **Tela de Carrinho**
 ![Tela de Carrinho](document/captura-4.png)
 
+## **Base de Dados**
+
+**Estrutura de Tabelas**
+![Tela do banco de dados](document/base_de_dados.png)
+
+**Tabela de Produtos**
+![Tela do banco de dados](document/tabela_produtos.png)
+
+**Tabela de Categorias**
+![Tela do banco de dados](document/tabela_categorias.png)
+
 ## **Descrição dos Metódos Utilizados:**
 
 | Método                    | Descrição                                                                                       | Exemplo |
